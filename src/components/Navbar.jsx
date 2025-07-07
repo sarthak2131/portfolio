@@ -35,20 +35,20 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a0a0a]/90 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-5'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a0a0a]/90 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-5'} px-2 sm:px-4`}>
       <div className="container mx-auto flex justify-between items-center">
-        <NavLink to="/" className="text-2xl font-bold">
+        <NavLink to="/" className="text-xl sm:text-2xl font-bold">
           <span className="gradient-text">Sarthak</span>
         </NavLink>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-8">
+        <ul className="hidden md:flex space-x-4 sm:space-x-8">
           {navLinks.map((link) => (
             <li key={link.name}>
               <NavLink 
                 to={link.path}
                 className={({ isActive }) => 
-                  `relative text-base font-medium transition-colors duration-300 hover:text-white ${isActive ? 'text-white' : 'text-gray-400'}`
+                  `relative text-base sm:text-lg font-medium transition-colors duration-300 hover:text-white ${isActive ? 'text-white' : 'text-gray-400'}`
                 }
               >
                 {({ isActive }) => (
@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation Toggle */}
         <button 
-          className="md:hidden text-2xl focus:outline-none"
+          className="md:hidden text-2xl focus:outline-none px-2 py-1"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <FiX /> : <FiMenu />}
@@ -88,13 +88,13 @@ const Navbar = () => {
       >
         {isOpen && (
           <div className="bg-[#0a0a0a]/95 backdrop-blur-md py-4">
-            <ul className="container mx-auto flex flex-col space-y-4">
+            <ul className="container mx-auto flex flex-col space-y-2 sm:space-y-4">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <NavLink 
                     to={link.path}
                     className={({ isActive }) => 
-                      `block py-2 px-4 text-lg transition-colors duration-300 hover:text-white ${isActive ? 'text-white bg-[#1a1a1a] rounded-md' : 'text-gray-400'}`
+                      `block py-2 px-4 text-base sm:text-lg transition-colors duration-300 hover:text-white ${isActive ? 'text-white bg-[#1a1a1a] rounded-md' : 'text-gray-400'}`
                     }
                   >
                     {link.name}
