@@ -106,7 +106,7 @@ const Contact = () => {
                     <a href="https://github.com/sarthak2131" target="_blank" rel="noopener noreferrer" className="bg-[#252525] p-3 rounded-lg text-gray-400 hover:text-white hover:bg-[#333] transition-colors">
                       <FiGithub size={20} />
                     </a>
-                    <a href="https://linkedin.com/in/sarthak-baderiya" target="_blank" rel="noopener noreferrer" className="bg-[#252525] p-3 rounded-lg text-gray-400 hover:text-white hover:bg-[#333] transition-colors">
+                    <a href="https://www.linkedin.com/in/sarthak-baderiya/" target="_blank" rel="noopener noreferrer" className="bg-[#252525] p-3 rounded-lg text-gray-400 hover:text-white hover:bg-[#333] transition-colors">
                       <FiLinkedin size={20} />
                     </a>
                     <a href="mailto:sarthakbaderiya19@gmail.com" className="bg-[#252525] p-3 rounded-lg text-gray-400 hover:text-white hover:bg-[#333] transition-colors">

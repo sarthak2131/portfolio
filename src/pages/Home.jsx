@@ -81,7 +81,7 @@ const Home = () => {
                 variants={itemVariants}
               >
                 <a
-                  href="https://github.com/sarthak-baderiya"
+                  href="https://github.com/sarthak2131"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -90,7 +90,7 @@ const Home = () => {
                   <FiGithub size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/sarthak2131"
+                  href="https://www.linkedin.com/in/sarthak-baderiya/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -205,7 +205,7 @@ developer.createImpact();`}
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="text-xl font-bold">{project.title}</h3>
                     <div className="flex gap-2">
-                      <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                      <a href="https://github.com/sarthak2131" className="text-gray-400 hover:text-white transition-colors">
                         <FiGithub size={18} />
                       </a>
                       <a href="#" className="text-gray-400 hover:text-white transition-colors">

@@ -12,10 +12,10 @@ const Footer = () => {
           <span className="text-gray-400 text-xs sm:text-sm">Full-Stack Developer & Lifelong Learner</span>
         </div>
         <div className="flex gap-3 sm:gap-4 mt-4 md:mt-0 justify-center">
-          <a href="https://github.com/sarthak-baderiya" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" aria-label="GitHub">
+          <a href="https://github.com/sarthak2131" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" aria-label="GitHub">
             <FiGithub size={20} />
           </a>
-          <a href="https://linkedin.com/in/sarthak2131" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/sarthak-baderiya/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" aria-label="LinkedIn">
             <FiLinkedin size={20} />
           </a>
         </div>
